@@ -1,6 +1,6 @@
 import { StateStorage, createJSONStorage } from 'zustand/middleware';
 
-const firebaseUrl = 'https://zustand-storage-default-rtdb.firebaseio.com/zustand';
+const firebaseUrl = 'https://zutand-storage-app-default-rtdb.europe-west1.firebasedatabase.app/zustand';
 
 
 
@@ -23,6 +23,8 @@ const storageApi: StateStorage =  {
       method: 'PUT',
       body: value
     }).then( res => res.json());
+
+    //! Tener encuenta lo que se llama "Condicion de carrera"
 
     // console.count('setItem');
 
