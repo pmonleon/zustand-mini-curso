@@ -57,7 +57,7 @@ export const JiraTasks = ( { title, status, tasks }: Props ) => {
           <h4 className="ml-4 text-xl font-bold text-navy-700">{ title }</h4>
         </div>
 
-        <button onClick={ handleAddTask }>
+        <button type='button' title='add task' onClick={ handleAddTask }>
           <IoAddOutline />
         </button>
 
