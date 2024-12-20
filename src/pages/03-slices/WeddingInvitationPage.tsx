@@ -106,6 +106,7 @@ export const WeddingInvitationPage = () => {
                     Fecha de evento
                   </label>
                   <input
+                    title = "Fecha del evento"
                     type="date"
                     name="eventDate"
                     id="eventDate"
@@ -122,6 +123,7 @@ export const WeddingInvitationPage = () => {
                     Hora del evento
                   </label>
                   <input
+                    title="Hora del evento"
                     type="time"
                     name="eventTime"
                     id="eventTime"
@@ -139,6 +141,7 @@ export const WeddingInvitationPage = () => {
               <div className="flex items-center space-x-6">
                 <div className="flex items-center">
                   <input
+                    title = "Confirmación de asistencia"
                     type="radio"
                     name="isComing"
                     id="radioButton1"
@@ -154,6 +157,7 @@ export const WeddingInvitationPage = () => {
                 </div>
                 <div className="flex items-center">
                   <input
+                    title = "Confirmación de asistencia"
                     type="radio"
                     name="isComing"
                     id="radioButton2"
