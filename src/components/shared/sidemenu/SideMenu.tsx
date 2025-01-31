@@ -66,7 +66,7 @@ export const SideMenu = () => {
 
 
         {/* Logout */}
-        <a onClick={ logoutUser } className="mt-10">
+        <a onClick={ logoutUser } className="mt-10 cursor-pointer">
           <div>
             <IoLogOutOutline />
           </div>

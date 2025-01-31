@@ -43,16 +43,16 @@ export const LoginPage = () => {
 
         <div className="mb-4">
           <label className="block text-gray-600">Email</label>
-          <input type="text" name="username" autoComplete="off" />
+          <input title="username" type="text" name="username" autoComplete="off" />
         </div>
 
         <div className="mb-4">
           <label className="block text-gray-600">Password</label>
-          <input type="password" name="password" autoComplete="off" />
+          <input title='password' type="password" name="password" autoComplete="off" />
         </div>
 
         <div className="mb-4 flex items-center">
-          <input type="checkbox" name="remember" className="text-blue-500" />
+          <input title="remember" type="checkbox" name="remember" className="text-blue-500" />
           <label className="text-gray-600 ml-2">Remember Me</label>
         </div>
         
